@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+table {
+  font-family: "Roboto", sans-serif;
+  color: #495057;
+  border-color: #dee2e6;
+  height: 750px !important;
+}
+
+td {
+  padding: 0.75rem;
+  border-top: 1px solid #dee2e6;
+}
+
+.mceNonEditable {
+  color: #495057;
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+p[data-mce-bogus="all"] {
+  display: none;
+}
+
+p[data-mce-bogus="all"] + tr {
+  display: table-row;
+}
